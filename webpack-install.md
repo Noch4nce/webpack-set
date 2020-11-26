@@ -96,3 +96,12 @@ if (extra) {
     loaders.push(extra)
 }
 ```
+18. ### npm install -D babel-loader @babel/core @babel/preset-env webpack
+* добавляем loader babel v module.
+* после plugins в wb-confige добавляем devtool: 'eval-source-map',
+* добавляем файл babel.config
+* npm i -D @babel/plugin-proposal-class-properties
+* npm i -D @babel/plugin-proposal-export-default-from
+* npm i -D @babel/plugin-proposal-function-bind
+* npm i -D @babel/plugin-transform-runtime
+* npm i -D babel-eslint
